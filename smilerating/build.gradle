@@ -1,8 +1,6 @@
 apply plugin: 'com.android.library'
 
 ext {
-    PUBLISH_GROUP_ID = 'com.github.sujithkanna'
-    PUBLISH_ARTIFACT_ID = 'smileyrating'
     PUBLISH_VERSION = '2.0.0'
 }
 
@@ -25,4 +23,3 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.1.0'
 }
 
-apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'
